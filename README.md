@@ -10,7 +10,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
   You ought to put double back slash everywhere instead of single
   i.e. `\\(ax^2 + bx + c = 0\\)` or `$$x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.$$`
 5. Latex code must be written inside `<p>{"Your latex code here"}</p>`, use <br/> for line changes. 
-6. Use `<Concept/> `& `<Remarks/>` in array within `<> </>`. It acts like heading.
+6. Use `<Concept/>`& `<Remarks/>` in array within `<> </>`. It acts like heading.
 7. You can use Bootstrap classes to change the layout of your question, yt tutorials might be helpful.
 8. A little knowledge of JavaSript, Html & Bootstrap may be very helpful.
 
