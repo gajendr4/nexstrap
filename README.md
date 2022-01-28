@@ -18,6 +18,20 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## Adding Problems
+
+1. In order to contribute you need very less html and [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) 
+2. You have four things `question, qnimg, concept, answer` in array in `components/qnadata`, you can add there texts as JavaScript permits.
+3. `<Imgfluid src="yoururl.com/img.png">` can be used everywhere for image scaling , it fits well in the container.
+4. For latex code, 
+  suppose your code is `\(ax^2 + bx + c = 0\)` or `$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$`
+  You ought to put double back slash everywhere instead of single
+  i.e. `\\(ax^2 + bx + c = 0\\)` or `$$x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.$$`
+5. Latex code must be written inside `<p>{"Your latex code here"}</p>`, use <br/> for line changes. 
+6. You can use Bootstrap classes to change the layout of your question, yt tutorials might be helpful.
+7. A little knowledge of JavaSript, Html & Bootstrap may be very helpful.
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
