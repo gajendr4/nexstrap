@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Adding Problems
 
 1. In order to contribute you need very less html and [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) 
-2. You have four things `question, qnimg, concept, answer` in array in `components/qnadata`, you can add there texts as JavaScript permits.
+2. You have four things `question, qnimg, concept, answer, remarks` in array in `components/qnadata`, you can add there texts as JavaScript permits.
 3. `<Imgfluid src="yoururl.com/img.png">` can be used everywhere for image scaling , it fits well in the container.
 4. For latex code, 
   suppose your code is `\(ax^2 + bx + c = 0\)` or `$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$`
