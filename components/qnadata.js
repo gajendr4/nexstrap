@@ -22,9 +22,9 @@ const qnadata = [
             <Imgfluid src="https://sn3301files.storage.live.com/y4mHDFWlj8__ofXDJljVIYk6d62XNWKU6taDrPs4uJzQ-YHfDR6Vfjj9TUwGP3FLpEaVbGLiv6h82sAQ7dSjbBrPs63G234xZlANkUrDuPlyv1IGicdvJooEPui_bddktBIXdom0gtWhe3ixl8XG_vzOE9TAeDupgLHyOmewrRvfiFzv4PpxMAHl0pW785KwytY?width=1521&height=503&cropmode=none" />
             <Imgfluid src="https://sn3301files.storage.live.com/y4m8jeehOKiCxjAaVO96sYRnAibu2-awqQ8A4SsQsmNjvpNa_E9r0PqHKnyPHHWrZgLZB8Ravl3LCgEw80ZWoXiyNaAzbjzhq9_gusNmfGI3Spov02gqUshiCI17ff4uNfRYG5HVmYmKv1HZl3O533G-w4sI-7ZxIlouV8pJERWkZQrtlMCZc9b1QkpS6WR6QmA?width=1489&height=570&cropmode=none" /><br />
             <div className="container">
-                <div class="row featurette my-5 ">
-                    <div class="col-md-3 fs-3 order-md-2 d-flex justify-content-center"><p>{"\\(\\sigma_{1}=\\frac{Q_{1}}{2 \\pi R_{1}^{2}}\\)"}</p></div>
-                    <div class="col-md-9 fs-2 "><p>{"\\[2 F_{0}=\\frac{\\sigma_{1}}{4 \\epsilon_{0}} \\cdot 2 Q_{2}\\]"}</p><br /><p>{"\\[F_{0}=\\frac{Q_{1}}{4 \\epsilon_{0} \\cdot 2 \\pi R_{1}^{2}} \\cdot Q_{2}\\]"}</p><br /><p className="border border-2 border-dark">{"\\[F_{0}=\\frac{Q_{1} Q_{2}}{8 \\pi \\epsilon_{0} R_{1}^{2}}\\]"}</p></div>
+                <div className="row featurette my-5 ">
+                    <div className="col-md-3 fs-3 order-md-2 d-flex justify-content-center"><p>{"\\(\\sigma_{1}=\\frac{Q_{1}}{2 \\pi R_{1}^{2}}\\)"}</p></div>
+                    <div className="col-md-9 fs-2 "><p>{"\\[2 F_{0}=\\frac{\\sigma_{1}}{4 \\epsilon_{0}} \\cdot 2 Q_{2}\\]"}</p><br /><p>{"\\[F_{0}=\\frac{Q_{1}}{4 \\epsilon_{0} \\cdot 2 \\pi R_{1}^{2}} \\cdot Q_{2}\\]"}</p><br /><p className="border border-2 border-dark">{"\\[F_{0}=\\frac{Q_{1} Q_{2}}{8 \\pi \\epsilon_{0} R_{1}^{2}}\\]"}</p></div>
                 </div>
             </div>
         </>,
@@ -54,9 +54,9 @@ const qnadata = [
             <p className="border border-dark overflow-auto ">{"$$ r_{\\min }=\\frac{K Q_{1} Q_{0}}{M V_{0}{ }^{2}}+\\sqrt{\\frac{K^{2} Q_{1}{ }^{2} Q_{0}{ }^{2}}{M^{2} V_{0}{ }^{4}}+L^{2}}$$"}</p> <br />
             <Imgfluid src="https://i.postimg.cc/kMcfmgn4/image.png" />
             <div>
-                <div class="row featurette my-5 ">
-                    <div class="col-md-4 fs-3 order-md-2 d-flex justify-content-center row row-cols-1"><p className="row">{"$$\\left|\\overrightarrow{v_{f}}-\\overrightarrow{v_{i}}\\right|=2 v_{0} \\sin \\frac{\\delta}{2}$$"}</p><Imgfluid className="row" src="https://i.postimg.cc/CMCffNJ1/image.png" /><br /><p className="row">{"$$F_{e}=\\frac{k \\ Q_{1} Q_{0}}{r^{2}} $$ $$k=\\frac{1}{4 \\pi \\epsilon_{0}}$$"}</p></div>
-                    <div class="col-md-8 fs-2"> <p>{"$$\\overrightarrow{\\Delta P}=\\overrightarrow{P_{f}}-\\overrightarrow{P_{i}}=m\\left(\\overrightarrow{V_{f}}-\\overrightarrow{V_{i}}\\right)$$ $$\\left|\\overrightarrow{p_{f}}-\\overrightarrow{p_{i}}\\right|=2 m V_{0} \\sin \\frac{\\delta}{2}$$ "}</p>
+                <div className="row featurette my-5 ">
+                    <div className="col-md-4 fs-3 order-md-2 d-flex justify-content-center row row-cols-1"><p className="row">{"$$\\left|\\overrightarrow{v_{f}}-\\overrightarrow{v_{i}}\\right|=2 v_{0} \\sin \\frac{\\delta}{2}$$"}</p><Imgfluid className="row" src="https://i.postimg.cc/CMCffNJ1/image.png" /><br /><p className="row">{"$$F_{e}=\\frac{k \\ Q_{1} Q_{0}}{r^{2}} $$ $$k=\\frac{1}{4 \\pi \\epsilon_{0}}$$"}</p></div>
+                    <div className="col-md-8 fs-2"> <p>{"$$\\overrightarrow{\\Delta P}=\\overrightarrow{P_{f}}-\\overrightarrow{P_{i}}=m\\left(\\overrightarrow{V_{f}}-\\overrightarrow{V_{i}}\\right)$$ $$\\left|\\overrightarrow{p_{f}}-\\overrightarrow{p_{i}}\\right|=2 m V_{0} \\sin \\frac{\\delta}{2}$$ "}</p>
                         <p className="border border-dark overflow-auto">{"$$\\int F_{e} \\cos \\phi \\cdot d t=2 m V_{0} \\sin \\frac{\\delta}{2}$$"}</p><p>{"$$\\overrightarrow{L_{i}}=\\overrightarrow{L_{f}}$$"}</p><p className="border border-dark">{"$$M V_{0} L=M r^{2} \\frac{d \\phi}{d t}$$"}</p></div>
                 </div>
             </div> <hr />
@@ -84,9 +84,9 @@ export default qnadata;
     /* 
     
   <div>
-                <div class="row featurette my-5 ">
-                    <div class="col-md-3 fs-3 order-md-2 d-flex justify-content-center"></div>
-                    <div class="col-md-9 fs-2"></div>
+                <div className="row featurette my-5 ">
+                    <div className="col-md-3 fs-3 order-md-2 d-flex justify-content-center"></div>
+                    <div className="col-md-9 fs-2"></div>
                 </div>
             </div>
 
