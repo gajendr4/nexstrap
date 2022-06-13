@@ -39,6 +39,8 @@ export default function Home() {
       })}
 
       <Footer/>
+        
+      <h1> Vercel Deployment check </h1>
 
 
       {/* <Script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></Script> */}
